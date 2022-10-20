@@ -1,0 +1,20 @@
+<div class="row" style="margin: 10px;">
+    <div class="col">
+        <h1>{{contador}}</h1>
+        <p style="margin-bottom: 0;">Setup</p>
+        <div class="col">
+            <button class="boton" (click)="iniciar()">start</button>
+            <button class="boton" (click)="pausar()">pause</button>
+            <button class="boton" (click)="reset()">reset</button>
+        </div>
+        <p style="margin-bottom: 0;">Count</p>
+        <div class="col">
+            <button class="boton" (click)="contarArriba()">count up</button>
+            <button class="boton" (click)="contarAbajo()">count down</button>
+        </div>
+        <p style="margin-bottom: 0;">Set to</p>
+        <input type="number" placeholder="0">
+        <p style="margin-bottom: 0;">Step</p>
+        <p><input type="number" [(ngModel)]="valor">{{contador}} "count":{{funciona}}, "countUp":{{cuentaArriba}}, "value":0, "speed":1000 ,"step":{{valor}}</p>
+    </div>
+</div>

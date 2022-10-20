@@ -1,0 +1,12 @@
+.boton{
+    border:none;
+    color: white;
+    background-color: rgb(59, 130, 244);
+    box-shadow: none; 
+    height: 40px;
+    padding: 0 15px 0 15px;
+    cursor: pointer;
+}
+.boton:hover{
+    background-color: rgb(29, 81, 212);
+}
